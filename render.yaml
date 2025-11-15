@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: studybot-backend
+    name: chat-bot-ai-backend
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app --timeout 200 --workers 1
